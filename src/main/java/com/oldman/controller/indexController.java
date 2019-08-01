@@ -10,8 +10,8 @@ public class IndexController {
     @RequestMapping(path = {"/index", "/"})
     @ResponseBody
     public String index() {
-        KafkaService kafkaService = new KafkaService();
-        kafkaService.do_post();
+//        KafkaService kafkaService = new KafkaService();
+//        kafkaService.do_post();
         return "Hello World";
     }
 }
